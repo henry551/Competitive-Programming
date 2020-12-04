@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <queue>
+#include <bits/stdc++.h>
 using namespace std;
 typedef pair<int,int> pii;
 vector <pii> edges[300]; //edges[i].first is vertex value, edges[i].second is edge weight
