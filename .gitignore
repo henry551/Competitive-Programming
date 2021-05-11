@@ -1,6 +1,8 @@
 # Ignore Everything
 *
 .vscode
+COSCON21
+COSCON21/
 
 # But not .cpp
 !*.cpp
