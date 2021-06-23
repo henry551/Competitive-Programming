@@ -1,10 +1,10 @@
-#include <iostream>
+#include <bits/stdc++.h>
 #include <vector>
 using namespace std;
 typedef pair <int,int> pii;
 
 int n; //number of elements in list
-pii list[105]; //elements are from 1 to 100
+pii lists[105]; //elements are from 1 to 100
 vector <int> arr;
 
 //Time Complexity: O(logn)
@@ -69,7 +69,7 @@ bool cmp2(int a, pii b){
 //Time Complexity: O(logn)
 void arrSearch(int k){ //k represents element with index k
     //returns index of first element with second value <= list[k].first
-    int a = upper_bound(list+1, list+n+1, list[k].first, cmp1)-list-1;
+    int a = upper_bound(lists+1, lists+n+1, lists[k].first, cmp1)-lists-1;
     //returns index of first element with second value < list[k].first
-    int b = upper_bound(list+1, list+n+1, list[k].first, cmp2)-list-1;
+    int b = upper_bound(lists+1, lists+n+1, lists[k].first, cmp2)-lists-1;
 }
