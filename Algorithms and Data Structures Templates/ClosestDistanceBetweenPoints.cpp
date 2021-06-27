@@ -1,7 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <set>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 #define px second
 #define py first

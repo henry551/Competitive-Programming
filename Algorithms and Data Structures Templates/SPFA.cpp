@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <deque>
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef pair<int, int> pii; //first->loc, second->weight

@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int arr[105]; //stored from 0 to 100
 int tree[405]; //stored from 1 to 404 (at worst)

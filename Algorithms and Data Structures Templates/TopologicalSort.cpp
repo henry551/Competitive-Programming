@@ -1,7 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <stack>
-#include <queue>
+#include <bits/stdc++.h>
 using namespace std;
 int N, M; //nodes, edges
 vector <int> edge[105]; //edges

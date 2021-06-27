@@ -1,6 +1,4 @@
-#include <iostream>
-#include <map>
-#include <unordered_map>
+#include <bits/stdc++.h>
 using namespace std;
 typedef pair <string,int> pii;
 map <string,int> mp;

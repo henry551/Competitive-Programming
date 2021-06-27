@@ -15,10 +15,7 @@ int lis(vector<int> const& a) {
 
     for (int i = 0; i < n; i++) {
         int j = upper_bound(d.begin(), d.end(), a[i]) - d.begin();
-        
-        // int j = upper_bound(d.begin(), d.end(), a[i], [&](auto &a, auto &b) { return num[a] < num[b]; }) - d.begin();
-
-        if (d[j-1] < a[i] && a[i] < d[j])
+        if (d[j-1] < a[i])
             d[j] = a[i];
     }
 

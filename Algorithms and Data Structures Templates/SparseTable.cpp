@@ -1,5 +1,4 @@
-#include <iostream>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 int n;
 int arr[300]; //values are stored from index 0 to n-1

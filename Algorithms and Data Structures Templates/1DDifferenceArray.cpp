@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int arr[11]; //values are stored from index 1 to 9
 int diff[11];

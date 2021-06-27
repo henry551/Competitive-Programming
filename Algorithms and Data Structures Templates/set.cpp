@@ -1,4 +1,4 @@
-#include <set>
+#include <bits/stdc++.h>
 using namespace std;
 set <int> st;
 set <int>::iterator it;
