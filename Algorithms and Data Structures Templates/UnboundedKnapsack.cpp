@@ -6,6 +6,9 @@ int weight[300];
 int val[300];
 int best[300];
 
+//Time Complexity: O(nw)
+//Space Complexity: O(w)
+
 void dp(){
     for (int i=1; i<=n; i++){
         for (int j=weight[i]; j<=w; j++){
